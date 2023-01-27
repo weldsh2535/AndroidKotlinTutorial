@@ -47,7 +47,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-
+       binding.btnGridView.setOnClickListener {
+           val intent = Intent(this,ImageActivity::class.java)
+           startActivity(intent)
+       }
 
 
         // use arrayadapter and define an array

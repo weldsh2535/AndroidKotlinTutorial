@@ -27,6 +27,7 @@
         </activity>
         <activity android:name=".SecondActivity"/>
         <activity android:name=".NumberListActivity"/>
+        <activity android:name=".ImageActivity"/>
     </application>
 
 </manifest>
