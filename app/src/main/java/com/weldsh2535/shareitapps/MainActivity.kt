@@ -51,7 +51,10 @@ class MainActivity : AppCompatActivity() {
            val intent = Intent(this,ImageActivity::class.java)
            startActivity(intent)
        }
-
+       binding.btnShowStraggeredGridView.setOnClickListener {
+           val intent = Intent(this,FlowerActivity::class.java)
+           startActivity(intent)
+       }
 
         // use arrayadapter and define an array
         //val arrayAdapter: ArrayAdapter<*>

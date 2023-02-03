@@ -28,6 +28,7 @@
         <activity android:name=".SecondActivity"/>
         <activity android:name=".NumberListActivity"/>
         <activity android:name=".ImageActivity"/>
+        <activity android:name=".FlowerActivity"/>
     </application>
 
 </manifest>

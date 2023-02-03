@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.widget.AdapterView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.weldsh2535.shareitapps.Adapter.ImageListAdapter
 import com.weldsh2535.shareitapps.databinding.ActivityImageBinding
 
 class ImageActivity:AppCompatActivity() {
